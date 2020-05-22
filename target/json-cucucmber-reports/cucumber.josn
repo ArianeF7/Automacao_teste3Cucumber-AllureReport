@@ -1,0 +1,68 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-22T04:36:32.146Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4539967300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Criar Movimentação",
+        "description": "",
+        "id": "movimentacao;criar-movimentação",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2942693800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que o usuario ja tenha um cadastro no site E ja tenha uma conta cadastrada",
+            "match": {
+              "location": "MovimentacaoSteps.queOUsuarioJaTenhaUmCadastroNoSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "ele preencher os dados da movimentaçao",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 24100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "A movimentação será criada",
+            "match": {
+              "location": "MovimentacaoSteps.aMovimentacaoSeraCriada()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Movimentacao",
+    "description": "",
+    "id": "movimentacao",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Movimentacao.feature",
+    "tags": []
+  }
+]
