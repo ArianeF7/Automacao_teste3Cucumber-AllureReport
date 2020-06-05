@@ -1,9 +1,9 @@
 package steps;
 
 import Drivers.DriverManagerFactory;
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Quando;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Entao;
+import cucumber.api.java.pt.Quando;
 import org.openqa.selenium.support.PageFactory;
 import pages.CriarMovimentacao;
 import pages.Home;
@@ -17,19 +17,20 @@ public class MovimentacaoSteps extends DriverManagerFactory {
    private CriarMovimentacao criarMov = PageFactory.initElements(getDriver(), CriarMovimentacao.class);
 
 
-    @Dado("que o usuario ja tenha um cadastro no site E ja tenha uma conta cadastrada")
-    public void queOUsuarioJaTenhaUmCadastroNoSite() {
+    @Dado("^eu ja tenha um cadastro no site E tenha acessado a pagina de movimentacao$")
+    public void euJaTenhaUmCadastroNoSite() {
         login.acessaSite();
         login.RealizarLogin();
     }
 
-    @Quando("ele preencher os dados da movimentaçao ")
-    public void elePreencherOsDadosDaMovimentacao() {
+    @Quando("^eu criar a movimentacao$")
+    public void euCriaraMovimentacao() {
         homeNav.home();
+        criarMov.CriarMovimentacao();
     }
 
-    @Entao("A movimentação será criada")
-    public void aMovimentacaoSeraCriada() {
-        criarMov.CriarMovimentacao();
+    @Entao("^devo ver a mensagem de confirmacao$")
+    public void devoVeraMensagemDeCondirmacao() {
+        criarMov.ConfirmaMovimentacao();
     }
 }

@@ -3,11 +3,10 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2020-05-22T04:36:32.146Z",
         "before": [
           {
             "result": {
-              "duration": 4539967300,
+              "duration": 3700840000,
               "status": "passed"
             },
             "match": {
@@ -19,39 +18,53 @@
         "name": "Criar Movimentação",
         "description": "",
         "id": "movimentacao;criar-movimentação",
+        "after": [
+          {
+            "result": {
+              "duration": 1137670300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 2942693800,
+              "duration": 2995246700,
               "status": "passed"
             },
             "line": 8,
-            "name": "que o usuario ja tenha um cadastro no site E ja tenha uma conta cadastrada",
+            "name": "eu ja tenha um cadastro no site E tenha acessado a pagina de movimentacao",
             "match": {
-              "location": "MovimentacaoSteps.queOUsuarioJaTenhaUmCadastroNoSite()"
+              "location": "MovimentacaoSteps.euJaTenhaUmCadastroNoSite()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2421414300,
+              "status": "passed"
             },
             "line": 9,
-            "name": "ele preencher os dados da movimentaçao",
-            "match": {},
+            "name": "eu criar a movimentacao",
+            "match": {
+              "location": "MovimentacaoSteps.euCriaraMovimentacao()"
+            },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 24100,
-              "status": "skipped"
+              "duration": 442142200,
+              "status": "passed"
             },
             "line": 10,
-            "name": "A movimentação será criada",
+            "name": "devo ver a mensagem de confirmacao",
             "match": {
-              "location": "MovimentacaoSteps.aMovimentacaoSeraCriada()"
+              "location": "MovimentacaoSteps.devoVeraMensagemDeCondirmacao()"
             },
             "keyword": "Entao "
           }
@@ -62,7 +75,7 @@
     "description": "",
     "id": "movimentacao",
     "keyword": "Funcionalidade",
-    "uri": "file:src/test/resources/features/Movimentacao.feature",
+    "uri": "src/test/resources/features/Movimentacao.feature",
     "tags": []
   }
 ]

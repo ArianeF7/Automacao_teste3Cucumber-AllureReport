@@ -1,0 +1,167 @@
+{
+  "uid" : "ab1cb345e9a603ad",
+  "name" : "Criar Movimentação",
+  "fullName" : "Movimentacao: Criar Movimentação",
+  "historyId" : "1a4b5e7c9b071267c6927fcf99ccec06",
+  "time" : {
+    "start" : 1591383028542,
+    "stop" : 1591383039284,
+    "duration" : 10742
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hook.init()",
+    "time" : {
+      "start" : 1591383028563,
+      "stop" : 1591383032265,
+      "duration" : 3702
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  eu ja tenha um cadastro no site E tenha acessado a pagina de movimentacao",
+      "time" : {
+        "start" : 1591383032269,
+        "stop" : 1591383035279,
+        "duration" : 3010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e594524fba5f20b1",
+        "name" : "Page Screenshot",
+        "source" : "e594524fba5f20b1.png",
+        "type" : "image/png",
+        "size" : 22480
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Quando  eu criar a movimentacao",
+      "time" : {
+        "start" : 1591383035282,
+        "stop" : 1591383037703,
+        "duration" : 2421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b188a1100c7f5ef",
+        "name" : "Page Screenshot",
+        "source" : "6b188a1100c7f5ef.png",
+        "type" : "image/png",
+        "size" : 27768
+      }, {
+        "uid" : "470d4c89f62c25a1",
+        "name" : "Page Screenshot",
+        "source" : "470d4c89f62c25a1.png",
+        "type" : "image/png",
+        "size" : 36171
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "Entao  devo ver a mensagem de confirmacao",
+      "time" : {
+        "start" : 1591383037703,
+        "stop" : 1591383038146,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "308e4a61cdb418c9",
+        "name" : "Page Screenshot",
+        "source" : "308e4a61cdb418c9.png",
+        "type" : "image/png",
+        "size" : 38088
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "Hook.tearDown()",
+    "time" : {
+      "start" : 1591383038147,
+      "stop" : 1591383039284,
+      "duration" : 1137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Movimentacao"
+  }, {
+    "name" : "story",
+    "value" : "Criar Movimentação"
+  }, {
+    "name" : "host",
+    "value" : "BRPC003846"
+  }, {
+    "name" : "thread",
+    "value" : "12712@BRPC003846.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Movimentacao"
+  }, {
+    "name" : "suite",
+    "value" : "Movimentacao"
+  }, {
+    "name" : "testClass",
+    "value" : "Criar Movimentação"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber3jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab1cb345e9a603ad.json",
+  "parameterValues" : [ ]
+}

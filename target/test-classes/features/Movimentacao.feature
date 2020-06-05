@@ -5,6 +5,7 @@ Funcionalidade: Movimentacao
 
   Cenario: Criar Movimentação
 
-    Dado que o usuario ja tenha um cadastro no site E ja tenha uma conta cadastrada
-    Quando ele preencher os dados da movimentaçao
-    Entao A movimentação será criada
+    Dado eu ja tenha um cadastro no site E tenha acessado a pagina de movimentacao
+    Quando eu criar a movimentacao
+    Entao devo ver a mensagem de confirmacao
+

@@ -3,6 +3,7 @@ package pages;
 import Drivers.DriverManagerFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import report.Report;
 
 public class Login extends DriverManagerFactory implements DefaultProperties {
 
@@ -21,6 +22,7 @@ public class Login extends DriverManagerFactory implements DefaultProperties {
     public void RealizarLogin(){
         txtEmail.sendKeys("arianeteste1@email.com");
         txtSenha.sendKeys("teste");
+        Report.takeScreenshot();
         btnEntrar.click();
     }
 

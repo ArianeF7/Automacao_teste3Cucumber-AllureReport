@@ -20,34 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e8f1276-71ba-4e6d-8528-a39e6f76cbe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Drivers/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Drivers/EdgeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DefaultProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/Movimentacao.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/MovimentacaoSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automacao_teste2.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/report/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Drivers/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Drivers/ChromeDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Drivers/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Drivers/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Drivers/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Drivers/DriverManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Drivers/FirefoxDriverManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CriarMovimentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CriarMovimentacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FactoryPatternTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Drivers/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory$DriverType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/FirefoxDriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Automacao_teste2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CriarMovimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CriarMovimentacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FactoryPatternTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/MovimentacaoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MovimentacaoSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Movimentacao.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Movimentacao.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/ChromeDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverManagerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/DriverType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/EdgeDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CriarMovimentacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DefaultProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-cucucmber-reports/cucumber.josn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automacao_teste3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Movimentacao.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/Hook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/MovimentacaoSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-junit/junit.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,26 +80,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automacao_teste2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automacao_teste1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aafa\Desktop\Projetos_GFT\Automacao_teste3\src\test\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aafa\Desktop\Projetos_GFT\Automacao_teste3\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="Drivers" />
       <recent name="pages" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aafa\Desktop\Projetos_GFT\Automacao_teste3\src\test\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aafa\Desktop\Projetos_GFT\Automacao_teste3\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.Automacao_teste3 [clean,test...]">
+    <configuration name="All in Automacao_teste3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automacao_teste3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automacao_teste3" />
       <extension name="coverage">
@@ -122,9 +132,42 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Automacao_teste3 [clean,test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="allure:report" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in Automacao_teste3" />
+      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="Maven.Automacao_teste3 [clean,test...]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.All in Automacao_teste3" />
       </list>
     </recent_temporary>
   </component>
@@ -158,30 +201,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590086048617" />
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591383081184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591383081184" />
     <state x="1126" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590085256429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1126" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590085256429" />
-    <state x="1181" y="274" key="FileChooserDialogImpl" timestamp="1590151497206">
+    <state x="1181" y="274" key="FileChooserDialogImpl" timestamp="1591123358573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1181" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590151497206" />
-    <state width="910" height="281" key="GridCell.Tab.0.bottom" timestamp="1590122754226">
+    <state x="1181" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591123358573" />
+    <state width="912" height="281" key="GridCell.Tab.0.bottom" timestamp="1591392406666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590122754226" />
-    <state width="910" height="281" key="GridCell.Tab.0.center" timestamp="1590122754225">
+    <state width="912" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591392406666" />
+    <state width="912" height="281" key="GridCell.Tab.0.center" timestamp="1591392406666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590122754225" />
-    <state width="910" height="281" key="GridCell.Tab.0.left" timestamp="1590122754225">
+    <state width="912" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591392406666" />
+    <state width="912" height="281" key="GridCell.Tab.0.left" timestamp="1591392406666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590122754225" />
-    <state width="910" height="281" key="GridCell.Tab.0.right" timestamp="1590122754225">
+    <state width="912" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591392406666" />
+    <state width="912" height="281" key="GridCell.Tab.0.right" timestamp="1591392406666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="910" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590122754225" />
+    <state width="912" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591392406666" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590177638826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590177638826" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1590177638825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590177638825" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1590177638825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590177638825" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1590177638826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590177638826" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1591121311007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591121311007" />
     <state x="902" y="168" key="SettingsEditor" timestamp="1590085298692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

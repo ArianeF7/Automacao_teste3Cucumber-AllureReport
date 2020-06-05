@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Movimentacao",
+    "children" : [ {
+      "name" : "Criar Movimentação",
+      "uid" : "ab1cb345e9a603ad",
+      "parentUid" : "7f2164129a1d14182f1c676db7bb9d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591383028542,
+        "stop" : 1591383039284,
+        "duration" : 10742
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7f2164129a1d14182f1c676db7bb9d1f"
+  } ]
+}

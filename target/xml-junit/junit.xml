@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="7.495446">
-<testcase classname="Movimentacao" name="Criar Movimentação" time="7.495446">
-<skipped><![CDATA[Dado que o usuario ja tenha um cadastro no site E ja tenha uma conta cadastrada.passed
-Quando ele preencher os dados da movimentaçao...............................undefined
-Entao A movimentação será criada............................................skipped
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.80397">
+<testcase classname="Movimentacao" name="Criar Movimentação" time="10.80397">
+<system-out><![CDATA[Dado eu ja tenha um cadastro no site E tenha acessado a pagina de movimentacao.passed
+Quando eu criar a movimentacao..............................................passed
+Entao devo ver a mensagem de confirmacao....................................passed
+]]></system-out>
 </testcase>
 </testsuite>

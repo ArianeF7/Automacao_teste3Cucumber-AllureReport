@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "BRPC003846",
+    "children" : [ {
+      "name" : "12712@BRPC003846.main(1)",
+      "children" : [ {
+        "name" : "Criar Movimentação",
+        "uid" : "ab1cb345e9a603ad",
+        "parentUid" : "c8c1aebc8f9b17677e22a09b36ee50dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591383028542,
+          "stop" : 1591383039284,
+          "duration" : 10742
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8c1aebc8f9b17677e22a09b36ee50dc"
+    } ],
+    "uid" : "b860b2ea8f66a4d05f6786787cd9fdfb"
+  } ]
+}

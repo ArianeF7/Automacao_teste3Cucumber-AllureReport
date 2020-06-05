@@ -1,0 +1,11 @@
+Drivers\DriverManagerFactory.class
+report\Report.class
+pages\DefaultProperties.class
+Drivers\DriverManager.class
+Drivers\ChromeDriverManager.class
+Drivers\DriverManagerFactory$1.class
+pages\CriarMovimentacao.class
+Drivers\DriverType.class
+Drivers\EdgeDriverManager.class
+pages\Home.class
+pages\Login.class

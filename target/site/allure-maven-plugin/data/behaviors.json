@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Movimentacao",
+    "children" : [ {
+      "name" : "Criar Movimentação",
+      "children" : [ {
+        "name" : "Criar Movimentação",
+        "uid" : "ab1cb345e9a603ad",
+        "parentUid" : "f609838f81817f3cf9e8a43ba697c33f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591383028542,
+          "stop" : 1591383039284,
+          "duration" : 10742
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f609838f81817f3cf9e8a43ba697c33f"
+    } ],
+    "uid" : "076f36dd49215b2192bea73abe9a3135"
+  } ]
+}

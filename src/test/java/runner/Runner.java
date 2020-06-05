@@ -1,7 +1,7 @@
 package runner;
 
 
-import io.cucumber.junit.CucumberOptions;
+import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
@@ -9,9 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         tags = {},
         glue = {"hooks", "steps"},
-        plugin = {"pretty", "json:target/json-cucucmber-reports/cucumber.josn",
+        plugin = {"io.qameta.allure.cucumber3jvm.AllureCucumber3Jvm",
+                "pretty", "json:target/json-cucucmber-reports/cucumber.josn",
                 "junit:target/xml-junit/junit.xml"},
         features = {"src/test/resources/features"})
-public class Runner {
-
-}
+public class Runner {}
